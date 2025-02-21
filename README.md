@@ -1,50 +1,48 @@
-# Email Writer App
+# ProEmail-Assistant
 
-## Overview
-The **Email Writer App** is a Spring Boot-based application that generates professional email replies using Google's Gemini AI. It provides an API to process incoming email content and return an AI-generated response. The frontend is built using **HTML, CSS, and JavaScript**.
+ProEmail-Assistant is a Spring Boot-based email generation service that leverages Gemini AI to generate professional email replies based on user input. The frontend is built using HTML, CSS, and JavaScript.
 
 ## Features
-- Generates AI-powered email replies
-- Allows customization of the email tone
-- REST API built with Spring Boot
-- Uses WebClient to call Gemini API
-- Simple and user-friendly frontend
+- Generate professional email replies using Gemini AI.
+- Supports different tones for email responses.
+- REST API for seamless integration.
+- Simple and user-friendly frontend.
 
-## Technologies Used
-### Backend:
-- **Spring Boot** (REST API)
-- **Spring WebFlux** (WebClient for API calls)
-- **Lombok** (Simplifies Java code)
-- **Jackson** (JSON processing)
-
-### Frontend:
-- **HTML** (Structure)
-- **CSS** (Styling)
-- **JavaScript** (API integration)
+## Tech Stack
+- **Backend:** Java, Spring Boot, WebClient, Lombok
+- **Frontend:** HTML, CSS, JavaScript
+- **API Integration:** Gemini AI
 
 ## Setup & Installation
-### Prerequisites:
-- **Java 17+** installed
-- **Maven** installed
-- **Google Gemini API Key**
 
-### Steps:
+### Prerequisites
+- Java 17+
+- Maven
+- Node.js (for frontend development, if needed)
+
+### Backend Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/email-writer-app.git
-   cd email-writer-app
+   git clone https://github.com/yourusername/ProEmail-Assistant.git
    ```
-2. Configure environment variables:
-   - Set `GEMINI_URL` and `GEMINI_KEY` in `application.properties` or as environment variables.
-   
-3. Build and run the application:
+2. Navigate to the backend folder:
    ```sh
-   mvn clean install
+   cd ProEmail-Assistant
+   ```
+3. Configure environment variables:
+   - Set `GEMINI_URL` and `GEMINI_KEY` in your environment or `application.properties`.
+
+4. Build and run the application:
+   ```sh
    mvn spring-boot:run
    ```
-4. The backend runs at `http://localhost:8080/api/email/generate`
 
-5. Open `index.html` in a browser to use the frontend.
+### Frontend Setup
+1. Open the frontend folder:
+   ```sh
+   cd frontend
+   ```
+2. Open `index.html` in a browser or use a local server to run it.
 
 ## API Endpoints
 ### 1. Generate Email Reply
