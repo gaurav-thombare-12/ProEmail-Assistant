@@ -61,9 +61,15 @@ ProEmail-Assistant is a Spring Boot-based email generation service that leverage
 "Sure, I’d be happy to schedule a meeting. Please let me know your available time slots."
 ```
 
-## Output
+## Output Screenshots
 ![image](https://github.com/user-attachments/assets/58d31db8-f764-4b0a-9879-dee23a04b767)
 ![image](https://github.com/user-attachments/assets/57d6133a-6cb3-43f6-982d-d52f45aaae0d)
+
+## Output Video
+
+
+
+https://github.com/user-attachments/assets/d62b0444-bf58-4f13-8596-e74c29d4a3c4
 
 
 ## Future Enhancements
