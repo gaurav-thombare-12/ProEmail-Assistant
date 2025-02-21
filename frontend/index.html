@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Reply Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Email Reply Generator</h1>
+    <textarea id="emailContent" placeholder="Enter original email content..." rows="6"></textarea>
+
+    <label for="tone">Tone (Optional):</label>
+    <select id="tone">
+        <option value="">None</option>
+        <option value="professional">Professional</option>
+        <option value="casual">Casual</option>
+        <option value="friendly">Friendly</option>
+    </select>
+
+    <button id="generateBtn">Generate Reply</button>
+    <div id="loading" class="hidden">Generating...</div>
+    <div id="error" class="error hidden"></div>
+
+    <div id="replyContainer" class="hidden">
+        <h2>Generated Reply:</h2>
+        <textarea id="generatedReply" rows="6" readonly></textarea>
+        <button id="copyBtn">Copy to Clipboard</button>
+    </div>
+</div>
+
+<!-- ✅ Move script to the end of the body -->
+<script src="script.js"></script>
+
+</body>
+</html>
