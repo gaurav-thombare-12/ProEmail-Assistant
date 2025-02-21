@@ -64,7 +64,8 @@ The **Email Writer App** is a Spring Boot-based application that generates profe
 ```
 
 ## Output
-![image](https://github.com/user-attachments/assets/7cc5bc09-0fcc-4ad4-92fc-e67e98142b00)
+![image](https://github.com/user-attachments/assets/84a30345-ef69-4e2e-b519-9f11aa19c284)
+
 
 
 
