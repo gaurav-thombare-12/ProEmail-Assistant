@@ -62,7 +62,9 @@ ProEmail-Assistant is a Spring Boot-based email generation service that leverage
 ```
 
 ## Output
-![image](https://github.com/user-attachments/assets/84a30345-ef69-4e2e-b519-9f11aa19c284)
+![image](https://github.com/user-attachments/assets/58d31db8-f764-4b0a-9879-dee23a04b767)
+![image](https://github.com/user-attachments/assets/57d6133a-6cb3-43f6-982d-d52f45aaae0d)
+
 
 ## Future Enhancements
 - Add user authentication and authorization.
