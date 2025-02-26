@@ -18,7 +18,7 @@ ProEmail-Assistant is a Spring Boot-based email generation service that leverage
 ### Prerequisites
 - Java 17+
 - Maven
-- Node.js (for frontend development, if needed)
+
 
 ### Backend Setup
 1. Clone the repository:
